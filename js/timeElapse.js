@@ -1,4 +1,4 @@
-var loveTime=Date.parse("May 5 2012 18:00:00 GMT+0800");
+var loveTime=Date.parse("May 5 2012 18:00:00 GMT+0800"); // Set your own love time
  
 function timeElapse(){
     var nowTime=new Date();
@@ -19,6 +19,7 @@ function timeElapse(){
 		secMinus="0"+secMinus;
 	}
 	topID=document.getElementById("top");
+	//Replace these words by what you want
 	var topContent="<div id=\"top-box\"><span class=\"top-content\">I have now fallen love for you for </span><span class=\"top-time\">"+dayMinus+"</span><span class=\"top-timeElapse\">Days </span><span class=\"top-time\">"+hourMinus+"</span><span class=\"top-timeElapse\">Hours</span><span class=\"top-time\"> "+minMinus+"</span><span class=\"top-timeElapse\">Minutes </span><span class=\"top-time\">"+secMinus+"</span><span class=\"top-timeElapse\">Seconds</span></div>";
 	topID.innerHTML=topContent;
 	
