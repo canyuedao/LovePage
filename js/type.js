@@ -1,6 +1,6 @@
 var getID=document.getElementById("love"); 
 var text=getID.innerHTML;
-var speed=80;
+var speed=80; //Set each character interval time
 var jj=-1;var kk=0; var wds=0;
 function typeOut(){
   ++jj;
@@ -35,7 +35,7 @@ function typeOut(){
         getID.style.visibility="visible";   
         typeOut();
         var removeBox=document.getElementById("box");
-        speedTime=(text.length)*80;
-        setTimeout("removeBox.parentNode.removeChild(removeBox)",(speedTime-4000));
+        speedTime=(text.length)*80; // The total time the typeWriter take
+        setTimeout("removeBox.parentNode.removeChild(removeBox)",(speedTime-4000)); //4000--the time the text taking which not involved the element consumed 
        
     }          
