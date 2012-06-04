@@ -1,4 +1,3 @@
-
 body
 {
     background:url("http://i.minus.com/iAEq9jwbYnhGt.jpg");
@@ -8,11 +7,13 @@ p
 {
     text-indent:2em;
 }
+/** the hight of the top part **/
 #top
 {     
     height:50px;  
     
 }
+/** set the style of the timeElapse part on top **/
 #top-box
 {
     font-size:28px;
@@ -36,6 +37,7 @@ p
 
     
 }
+/** the style of the typeWriter box **/
 #box
 {
     background:rgba(0,0,0,0.35);
@@ -48,6 +50,7 @@ p
     padding-right:50px;  
  
 }
+/** set the box which contains the flower **/
 #newBox
 {    
     width:980px;
@@ -57,6 +60,7 @@ p
 {  
     visibility:hidden;	   
 }
+/** set the style of love words on top-box**/
 #loveU
 {
     margin-top:-400px;
@@ -70,6 +74,7 @@ p
     text-align:right;
 	
 }
+/** Ditto **/
 #loveUForever
 {
 
@@ -86,7 +91,7 @@ p
 }
 
 
-
+/** the hidden music flash **/
 #music
 {  
     position:absolute;  
@@ -101,6 +106,7 @@ p
 {
     line-height:120%;  
 }
+/** set the style of love words at last **/
 .loveU
 {
     font-style:italic;
@@ -108,6 +114,7 @@ p
     opacity:0.8;
     filter:alpha(opacity=80);
 }
+/** the two class below are used to control the font-style in the typeWriter box **/
 .dear
 {
     color:#088A08;
@@ -120,6 +127,7 @@ p
     font-family:Helvetica Neue;  
     font-size:16px;
 }
+/** the 3 below control the time-words's style on top-box **/
 .top-content
 {
     font-size:18px;
