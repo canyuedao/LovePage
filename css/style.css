@@ -1,0 +1,143 @@
+
+body
+{
+    background:url("http://i.minus.com/iAEq9jwbYnhGt.jpg");
+    background-attachment:fixed;  
+}
+p
+{
+    text-indent:2em;
+}
+#top
+{     
+    height:50px;  
+    
+}
+#top-box
+{
+    font-size:28px;
+    background:rgba(0,0,0,0.35);
+    width:866px;
+    height:30px;
+    text-align:center;
+    padding-top:5px;
+    margin-left:120px;
+    margin-top:10px;
+}
+#wrapper
+{ 
+    
+}
+#main
+{
+    width:980px;        
+    margin-left:70px; 
+    margin-top:10px;
+
+    
+}
+#box
+{
+    background:rgba(0,0,0,0.35);
+    color:White;
+    width:600px;
+    height:500px;
+    margin-left:53px;
+    padding-top:20px; 
+    padding-left:50px;   
+    padding-right:50px;  
+ 
+}
+#newBox
+{    
+    width:980px;
+    margin-top:-70px;
+}
+#love
+{  
+    visibility:hidden;	   
+}
+#loveU
+{
+    margin-top:-400px;
+    font-size:45px;
+    color:#FF2000;
+    height:50px;
+    float:left;
+    width:490px;
+    display:none;
+    font-family:STXingkai;
+    text-align:right;
+	
+}
+#loveUForever
+{
+
+    font-family:STXingkai;
+    float:right;
+    margin-top:-350px;
+    text-align:left;
+    color:#FF2000;
+    width:490px;
+    font-size:45px;
+    display:none;
+    height:50px;
+		
+}
+
+
+
+#music
+{  
+    position:absolute;  
+    width:240px; 
+    height:auto;   
+    margin-top:-350px;
+    margin-left:50px;    
+    visibility:hidden;
+    z-index:-1;
+}
+.content
+{
+    line-height:120%;  
+}
+.loveU
+{
+    font-style:italic;
+    font-family:STXingkai,"华文行楷";
+    opacity:0.8;
+    filter:alpha(opacity=80);
+}
+.dear
+{
+    color:#088A08;
+    font-family:Helvetica Neue;
+    font-size:20px;
+}
+.thatDay
+{
+    color:#1EB9ED;
+    font-family:Helvetica Neue;  
+    font-size:16px;
+}
+.top-content
+{
+    font-size:18px;
+    font-family: Verdana, Arial, sans-serif;  
+    color:white;   
+}
+.top-timeElapse
+{
+    font-size:18px;
+    font-family: Verdana, Arial, sans-serif;  
+    color:#1EB9ED;   
+    font-weight:200;
+}
+.top-time
+{
+    font-size:18px;
+    font-family: Verdana, Arial, sans-serif;  
+    color:#FFC0CB;   
+    font-weight:300;
+    font-style:italic;
+}
