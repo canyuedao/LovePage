@@ -4,13 +4,10 @@ The *.js parts contains 4 implementations--sonw effect、character typeWriter、
 Above these,the flower is transformed by hackedchou's code and the snow effect is copyed frome another site
   
 ##2.Use:
-  
+
+Upload this folder to your website.Then just view to see how it works.
 
 
-* [djyde](https://github.com/djyde)
+##Author:
 
-* [wuyangyu](https://github.com/wuyangyu)
-
-* [fkook](https://github.com/fkook)
-
-* [dpriest](https://github.com/dpriest)
+    [Chan](http:www.lan-gui.com)
